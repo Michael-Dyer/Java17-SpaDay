@@ -83,6 +83,7 @@ public class SpaDayController {
         polishColorChoices.add("#4682b4");
         polishColorChoices.add("#c71585");
 
+        model.addAttribute("polishColorChoices", polishColorChoices);
         return "menu";
     }
 }
